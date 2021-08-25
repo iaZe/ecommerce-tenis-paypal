@@ -1,7 +1,7 @@
 {
 	"products" : [
 		{
-			"name" : "Awesome T-shirt",
+			"name" : "Nike",
 			"price" : "35.99",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
@@ -10,7 +10,7 @@
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Cool T-shirt",
+			"name" : "Nike",
 			"price" : "15.99",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
@@ -21,7 +21,7 @@
 			"description" : "This is a really cool blue T-shirt"
 		},
 		{
-			"name" : "Fun T-shirt",
+			"name" : "Nike",
 			"price" : "15.99",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
