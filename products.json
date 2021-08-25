@@ -1,16 +1,16 @@
 {
 	"products" : [
 		{
-			"name" : "Nike",
+			"name" : "Nike 1",
 			"price" : "899.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/nike1.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Nike",
+			"name" : "Nike 2",
 			"price" : "989.99",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
@@ -21,82 +21,82 @@
 			"description" : "This is a really cool blue T-shirt"
 		},
 		{
-			"name" : "Nike",
+			"name" : "Nike 3",
 			"price" : "789.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/nike3.png",
 			"description" : "This is another fun grey T-shirt"
 		},
 		{
-			"name" : "Nike Women",
+			"name" : "Nike Women 1",
 			"price" : "889.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women1.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Nike Women",
+			"name" : "Nike Women 2",
 			"price" : "889.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women2.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Nike Women",
+			"name" : "Nike Women 3",
 			"price" : "889.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women3.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Nike Women",
+			"name" : "Nike Women 4",
 			"price" : "889.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women4.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Adidas",
+			"name" : "Adidas 1",
 			"price" : "949.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas2.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Adidas",
+			"name" : "Adidas 2",
 			"price" : "949.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas3.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Adidas",
+			"name" : "Adidas 3",
 			"price" : "949.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas4.png",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
-			"name" : "Adidas",
+			"name" : "Adidas 4",
 			"price" : "949.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas5.png",
 			"description" : "This is a very awesome grey T-shirt"
