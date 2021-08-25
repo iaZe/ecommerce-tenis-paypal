@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop E-commerce</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="l-header" id="header">
+      <nav class="nav bd-grid">
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bxs-grid"></i>
+        </div>
+  
+        <a href="#" class="nav-logo">Roby</a>
+  
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="index.html#featured" class="nav-link">Destaques</a></li>
+            <li class="nav-item"><a href="index.html#women" class="nav-link">Mulheres</a></li>
+            <li class="nav-item"><a href="index.html#new" class="nav-link">Novo</a></li>
+            <li class="nav-item"><a href="#shop" class="nav-link active">Shop</a></li>
+          </ul>
+        </div>
+  
+        <div class="nav-shop">
+            <a class="" href="cart.html#cart"> <i class='bx bx-shopping-bag'></i> </a>
+        </div>
+      </nav>
+    </header>
+    
+    <main class="l-main">
+        <section class="featured section" id="shop">
+        <h2 class="section-title">Todos os Produtos</h2>
+            <div class="simpleStore_container bd-grid"></div>
+
+    <script id="products-template" type="x-template">
+        <div class="featured-container2">
+            <article class="sneaker">
+                <img src="" alt="" class="sneaker-img item_thumb">
+                <span class="sneaker-name item_name"></span>
+               <span class="sneaker-price item_price"></span>
+                <a href="#" class="button-light simpleStore_getDetail">Comprar<i class='bx bx-right-arrow-alt button-icon'></i></a>
+            </article>
+        </div>
+    </script>
+
+
+    <!-- Product Detail View -->
+    <script id="product-detail-template" type="x-template">
+        <div class="simpleCart_shelfItem simpleStore_detailView">
+            <a href="#" class="close view_close">&times;</a>
+
+            <div class="row">
+                <div class="four columns">
+                    <img src="" class="item_thumb"/>
+                </div>
+                <div class="eight columns">
+                    <h5 class="item_name"></h5>
+
+                    <p class="item_description"></p>
+                    <span class="item_price"></span>
+
+                    <div class="qty">
+                        <label>QTY</label>
+                        <input type="number" value="1" min="1" step="1" class="item_Quantity">
+                    </div>
+                    <div class="simpleStore_options"></div>
+                    <a class="item_add button u-pull-right" href="javascript:;">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Error View -->
+    <script id="error-template" type="x-template">
+        <div class="error">
+            <b>Sorry, something went wrong :(</b>
+			<p class="error_text"></p>
+			<a href="#" class="close alert_close">&times;</a>
+        </div>
+    </script>
+
+    </div>
+    <div class="sneaker-pages bd-grid">
+    <div>
+        <span class="sneaker-pag">1</span>
+        <span class="sneaker-pag">2</span>
+        <span class="sneaker-pag">3</span>
+        <span class="sneaker-pag">&#8594;</span>
+    </div>
+    </div>
+    </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer-container bd-grid">
+          <div class="footer-box">
+            <h3 class="footer-title">Roby</h3>
+            <p class="footer-description">Nova coleção 2021</p>
+          </div>
+          <div class="footer-box">
+            <h3 class="footer-title">EXPLORE</h3>
+            <ul>
+              <li><a href="#home" class="footer-link">Início</a></li>
+              <li><a href="#featured" class="footer-link">Destaques</a></li>
+              <li><a href="#women" class="footer-link">Femininos</a></li>
+              <li><a href="#new" class="footer-link">Novos</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-box">
+            <h3 class="footer-title">SUPORTE</h3>
+            <ul>
+              <li><a href="#" class="footer-link">Ajuda</a></li>
+              <li><a href="#" class="footer-link">Atendimento</a></li>
+              <li><a href="#" class="footer-link">Serviço Autorizado</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-box">
+            <a href="#" class="footer-social"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="footer-social"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer-social"><i class='bx bxl-twitter' ></i></a>
+          </div>
+        </div>
+
+        <p class="footer-copy">&#169; 2021 Roby. Todos direitos reservados</p>
+      </footer>
+
+<script src="js/script.js"></script>
+</body>
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/simpleCart.min.js"></script>
+<script src="js/simpleStore.min.js"></script>
+<script src="js/config.js"></script>
+
+</html>
