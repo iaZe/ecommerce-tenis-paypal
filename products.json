@@ -4,16 +4,16 @@
 			"name" : "Nike 1",
 			"price" : "899.99",
 			"options" : [
-				{ "Tamanho" : "37,38,39, 40" }
+				{ "Tamanho" : "37,38,39,40" }
 			],
 			"image" : "images/nike1.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Nike 2",
 			"price" : "989.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" },
+				{ "Tamanho" : "37,38,39,40" },
 				{ "Color" : "Blue,Red" },
 			    { "OneOfAKind" : true }
 			],
@@ -36,7 +36,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women1.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Nike Women 2",
@@ -45,7 +45,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women2.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Nike Women 3",
@@ -54,7 +54,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women3.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Nike Women 4",
@@ -63,7 +63,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/women4.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Adidas 1",
@@ -72,7 +72,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas2.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Adidas 2",
@@ -81,7 +81,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas3.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Adidas 3",
@@ -90,7 +90,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas4.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		},
 		{
 			"name" : "Adidas 4",
@@ -99,7 +99,7 @@
 				{ "Tamanho" : "37,38,39, 40" }
 			],
 			"image" : "images/adidas5.png",
-			"description" : "This is a very awesome grey T-shirt"
+			"description" : "Seu sneaker número 1"
 		}
 	]
 }
